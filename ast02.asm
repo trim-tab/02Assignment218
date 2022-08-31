@@ -4,7 +4,6 @@
 ;  Assignment: 2
 ;  Description: Simply addition and subtraction
 ;
-;comment
 ; *****************************************************************
 ;  Static Data Declarations (initialized)
 
@@ -67,7 +66,7 @@ eval		dd	0
 ; -----
 ;  Quadword (64-bit) variable declarations
 
-qVar1		qw	0
+qVar1		dq	0
 
 
 ; ----------------------------------------------
