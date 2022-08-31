@@ -41,27 +41,27 @@ bAns2		db	0
 
 myclass db	"CS-218", NULL
 saying	db	"Its not a bug, its a feature."	,	NULL
-myName	db	"your name goes here", NULL
+myName	db	"Sarah Johnson", NULL
 ; -----
 ;  Word (16-bit) variable declarations
 
-wVar1		dw	0
-wVar2		dw	0
+wVar1		dw	2681
+wVar2		dw	1432
 
 wAns1		dw	0
 wAns2		dw	0
 ; -----
 ;  Double-word (32-bit) variable declarations
 
-dVar1		dd	0
-dVar2		dd	0
+dVar1		dd	164641512
+dVar2		dd	112356789
 
 dAns1		dd	0
 dAns2		dd	0
 
-flt1		dd	0
-flt2		dd	0
-eval		dd	0
+flt1		dd	-19.125
+flt2		dd	11.25
+eval		dd	2.71828
 
 ; -----
 ;  Quadword (64-bit) variable declarations
@@ -93,7 +93,35 @@ _start:
 ; -----
 ;	YOUR CODE GOES HERE...
 
+;bAns1 = bVar1 + bVar2
+	mov al, byte [bVar1]
+	add al, byte [bVar2]
+	mov byte	[bAns1],al
 
+;bAns2 = bVar1 - bVar2
+	mov al, byte [bVar1]
+	sub al, byte [bVar2]
+	mov byte [bAns2],al
+
+;wAns1 = wVar1 + wVar2
+	mov ax, word	[wVar1]
+	add	ax,	word	[wVar2]
+	mov	word	[wAns1],	ax
+
+;wAns2 = wVar1 - wVar2
+	mov ax, word	[wVar1]
+	sub	ax,	word	[wVar2]
+	mov	word wAns2, ax 
+
+;dAns1 = dVar1 + dVar2
+	mov eax,	dword	[dVar1]
+	add	eax,	dword	[dVar2]
+	mov	dword dAns1,	eax
+
+;dAns2 = dVar1 - dVar2
+	mov	eax,	dword	[dVar1]
+	sub	eax,	dword	[dVar2]
+	mov	dword	dAns2,	eax
 
 
 ; *****************************************************************
