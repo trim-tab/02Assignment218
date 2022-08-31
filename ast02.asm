@@ -36,10 +36,10 @@ SYS_exit	equ	60			; call code for terminate
 bVar1  db  59
 bVar2  db  21
 
-bAns1  db 0
-bAns2  db 0
+bAns1  db  0
+bAns2  db  0
 
-myclass  db  "CS-218", NULL
+myclass db  "CS-218", NULL
 saying  db  "Its not a bug, its a feature."	,	NULL
 myName  db  "Sarah Johnson", NULL
 ; -----
@@ -55,6 +55,7 @@ wAns2  dw  0
 
 dVar1  dd  164641512
 dVar2  dd  112356789
+dVar3  dd  -46524
 
 dAns1  dd  0
 dAns2  dd  0
@@ -66,7 +67,7 @@ eval  dd  2.71828
 ; -----
 ;  Quadword (64-bit) variable declarations
 
-qVar1  dq  0
+qVar1  dq  142455214619
 
 
 ; ----------------------------------------------
