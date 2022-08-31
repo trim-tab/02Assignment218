@@ -96,12 +96,12 @@ _start:
 ;bAns1 = bVar1 + bVar2
 	mov al, byte [bVar1]
 	add al, byte [bVar2]
-	mov byte	[bAns1],al
+	mov byte	[bAns1],	al
 
 ;bAns2 = bVar1 - bVar2
 	mov al, byte [bVar1]
 	sub al, byte [bVar2]
-	mov byte [bAns2],al
+	mov byte [bAns2],	al
 
 ;wAns1 = wVar1 + wVar2
 	mov ax, word	[wVar1]
@@ -111,17 +111,17 @@ _start:
 ;wAns2 = wVar1 - wVar2
 	mov ax, word	[wVar1]
 	sub	ax,	word	[wVar2]
-	mov	word wAns2, ax 
+	mov	word [wAns2], ax 
 
 ;dAns1 = dVar1 + dVar2
 	mov eax,	dword	[dVar1]
 	add	eax,	dword	[dVar2]
-	mov	dword dAns1,	eax
+	mov	dword [dAns1],	eax
 
 ;dAns2 = dVar1 - dVar2
 	mov	eax,	dword	[dVar1]
 	sub	eax,	dword	[dVar2]
-	mov	dword	dAns2,	eax
+	mov	dword	[dAns2],	eax
 
 
 ; *****************************************************************
