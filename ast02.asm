@@ -33,40 +33,40 @@ SYS_exit	equ	60			; call code for terminate
 ; -----
 ;  Byte (8-bit) variable declarations
 
-bVar1		db	59
-bVar2		db	21
+bVar1  db  59
+bVar2  db  21
 
-bAns1		db	0
-bAns2		db	0
+bAns1  db 0
+bAns2  db 0
 
-myclass db	"CS-218", NULL
-saying	db	"Its not a bug, its a feature."	,	NULL
-myName	db	"Sarah Johnson", NULL
+myclass  db  "CS-218", NULL
+saying  db  "Its not a bug, its a feature."	,	NULL
+myName  db  "Sarah Johnson", NULL
 ; -----
 ;  Word (16-bit) variable declarations
 
-wVar1		dw	2681
-wVar2		dw	1432
+wVar1  dw  2681
+wVar2  dw  1432
 
-wAns1		dw	0
-wAns2		dw	0
+wAns1  dw  0
+wAns2  dw  0
 ; -----
 ;  Double-word (32-bit) variable declarations
 
-dVar1		dd	164641512
-dVar2		dd	112356789
+dVar1  dd  164641512
+dVar2  dd  112356789
 
-dAns1		dd	0
-dAns2		dd	0
+dAns1  dd  0
+dAns2  dd  0
 
-flt1		dd	-19.125
-flt2		dd	11.25
-eval		dd	2.71828
+flt1  dd  -19.125
+flt2  dd  11.25
+eval  dd  2.71828
 
 ; -----
 ;  Quadword (64-bit) variable declarations
 
-qVar1		dq	0
+qVar1  dq  0
 
 
 ; ----------------------------------------------
@@ -83,6 +83,7 @@ section	.bss
 section	.text
 global _start
 _start:
+
 ;bAns1 = bVar1 + bVar2
 ;bAns2 = bVar1 - bVar2
 ;wAns1 = wVar1 + wVar2
@@ -90,8 +91,6 @@ _start:
 ;dAns1 = dVar1 + dVar2
 ;dAns2 = dVar1 - dVar2
 
-; -----
-;	YOUR CODE GOES HERE...
 
 ;bAns1 = bVar1 + bVar2
 	mov al, byte [bVar1]
