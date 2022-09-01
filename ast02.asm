@@ -45,7 +45,7 @@ flt1		dd	-19.125
 flt2		dd	11.25
 eVal		dd	2.71828
 myClass		db	"CS-218", NULL
-sayying		db	"Its not a bug, its a feature", NULL
+saying		db	"Its not a bug, its a feature", NULL
 myName		db	"Sarah Johnson", NULL
 
 
