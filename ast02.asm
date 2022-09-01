@@ -74,7 +74,7 @@ qVar1  dq  142455214619
 ;  Uninitialized Static Data Declarations.
 
 section	.bss
-
+x
 ;	Place data declarations for uninitialized data here...
 ;	(i.e., large arrays that are not initialized)
 
