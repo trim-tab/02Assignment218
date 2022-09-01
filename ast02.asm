@@ -23,13 +23,7 @@ SYS_exit	equ	60			; call code for terminate
 ; -----
 ;  Initialized Static Data Declarations.
 
-;	Place data declarations here...
-;bAns1 = bVar1 + bVar2
-;bAns2 = bVar1 - bVar2
-;wAns1 = wVar1 + wVar2
-;wAns2 = wVar1 - wVar2
-;dAns1 = dVar1 + dVar2
-;dAns2 = dVar1 - dVar2
+
 ; -----
 ;  Byte (8-bit) variable declarations
 
