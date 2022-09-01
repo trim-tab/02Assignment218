@@ -1,0 +1,82 @@
+
+------------------------------------ 
+display byte variables 
+bVar1: 	0x402000:	59
+bVar2: 	0x402001:	21
+bAns1: 	0x402002:	80
+bAns2: 	0x402003:	38
+
+display byte variables in hex 
+bVar1: 	0x402000:	0x3b
+bVar2: 	0x402001:	0x15
+bAns1: 	0x402002:	0x50
+bAns2: 	0x402003:	0x26
+
+------------------------------------ 
+display word variables 
+wVar1: 	0x402037:	2681
+wVar2: 	0x402039:	1432
+wAns1: 	0x40203b:	4113
+wAns2: 	0x40203d:	1249
+
+display word variables in hex 
+wVar1: 	0x402037:	0x0a79
+wVar2: 	0x402039:	0x0598
+wAns1: 	0x40203b:	0x1011
+wAns2: 	0x40203d:	0x04e1
+
+------------------------------------ 
+display double word variables 
+dVar1: 	0x40203f:	164641512
+dVar2: 	0x402043:	112356789
+dVar3: 	0x402047:	-46524
+dAns1: 	0x40204b:	276998301
+dAns2: 	0x40204f:	52284723
+
+display double word variables in hex
+dVar1: 	0x40203f:	0x09d03ae8
+dVar2: 	0x402043:	0x06b26db5
+dVar3: 	0x402047:	0xffff4a44
+dAns1: 	0x40204b:	0x1082a89d
+dAns2: 	0x40204f:	0x031dcd33
+
+------------------------------------ 
+display quad word variable 
+qVar1: 	0x40205f:	142455214619
+
+display quad word variable in hex
+qVar1: 	0x40205f:	0x000000212afe121b
+
+------------------------------------ 
+display real values in decimal 
+flt1: 	0x402053:	-19.125
+flt2: 	0x402057:	11.25
+eVal: 	0x40205b:	2.71828008
+
+display real values in hex
+flt1: 	0x402053:	0xc1990000
+flt2: 	0x402057:	0x41340000
+eVal: 	0x40205b:	0x402df84d
+
+------------------------------------ 
+display strings (first 6) as decimal / characters 
+myClass: 	0x402004:	67 'C'	83 'S'	45 '-'	50 '2'	49 '1'	56 '8'
+saying: 	0x40200b:	73 'I'	116 't'	115 's'	32 ' '	110 'n'	111 'o'
+myName: 	0x402029:	83 'S'	97 'a'	114 'r'	97 'a'	104 'h'	32 ' '
+
+display strings (first 6) as hex 
+myClass: 	0x402004:	0x43	0x53	0x2d	0x32	0x31	0x38
+saying: 	0x40200b:	0x49	0x74	0x73	0x20	0x6e	0x6f
+myName: 	0x402029:	0x53	0x61	0x72	0x61	0x68	0x20
+
+display strings as strings 
+myClass: 	0x402004:	"CS-218"
+saying: 	0x40200b:	"Its not a bug, its a feature."
+myName: 	0x402029:	"Sarah Johnson"
+
+------------------------------------ 
+
+ 
+Warning: 'set logging off', an alias for the command 'set logging enabled', is deprecated.
+Use 'set logging enabled off'.
+
