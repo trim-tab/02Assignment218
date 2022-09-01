@@ -46,7 +46,7 @@
     46 0000002C 00003441               flt2 dd 11.25
     47 00000030 4DF82D40               eVal dd 2.71828
     48 00000034 43532D32313800         myClass db "CS-218", NULL
-    49 0000003B 497473206E6F742061-    sayying db "Its not a bug, its a feature", NULL
+    49 0000003B 497473206E6F742061-    saying db "Its not a bug, its a feature", NULL
     50 0000003B 206275672C20697473-
     51 0000003B 206120666561747572-
     52 0000003B 6500               
