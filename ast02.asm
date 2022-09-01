@@ -39,7 +39,7 @@ bVar2  db  21
 bAns1  db  0
 bAns2  db  0
 
-myclass db  "CS-218", NULL
+myClass db  "CS-218", NULL
 saying  db  "Its not a bug, its a feature."	,	NULL
 myName  db  "Sarah Johnson", NULL
 ; -----
