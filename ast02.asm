@@ -62,7 +62,7 @@ dAns2  dd  0
 
 flt1  dd  -19.125
 flt2  dd  11.25
-eval  dd  2.71828
+eVal  dd  2.71828
 
 ; -----
 ;  Quadword (64-bit) variable declarations
