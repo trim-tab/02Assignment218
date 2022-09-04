@@ -1,5 +1,4 @@
 ;  Name: Sarah Johnson
-;added comment
 ;  NSHE ID: 1000286116
 ;  Section: 1003
 ;  Assignment: 2
